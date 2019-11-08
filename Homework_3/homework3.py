@@ -12,5 +12,5 @@ def calculatePaths(a,b,c,d,e,f,g):
 # read the user's input
 a,b,c,d,e,f,g = [int(nodes) for nodes in input("Please enter the number of nodes for the seven clusters, sperated by an ',' (seven numbers): ").split(",")]
 
-print("Number of edges:3 ", calculateEdges(a,b,c,d,e,f,g))
+print("Number of edges: ", calculateEdges(a,b,c,d,e,f,g))
 print("Number of paths: ", calculatePaths(a,b,c,d,e,f,g))
